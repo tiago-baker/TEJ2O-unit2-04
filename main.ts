@@ -12,7 +12,7 @@ basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-    TemperatureCelsius = input.temperature()
+        TemperatureCelsius = input.temperature()
     basic.showString("The Temperature Is:")
     basic.showNumber(TemperatureCelsius)
     basic.showString(" C.")
