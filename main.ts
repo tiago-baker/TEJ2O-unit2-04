@@ -6,14 +6,14 @@
 */
 
 // shows The Temperature of microbit
-let TemperatureCelsius: number
+let TemperatureOfMicrobit: number
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-        TemperatureCelsius = input.temperature()
+    TemperatureOfMicrobit = input.temperature()
     basic.showString("The Temperature Is:")
-    basic.showNumber(TemperatureCelsius)
+    basic.showNumber(TemperatureOfMicrobit)
     basic.showString(" C.")
 })
